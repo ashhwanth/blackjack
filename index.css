@@ -5,6 +5,7 @@ body {
     text-align: center;
     color: white;
     font-weight: bold;
+    font-size: 30px;
 }
 
 h1 {
@@ -15,14 +16,35 @@ h1 {
     font-style: italic;
 }
 button {
-    padding-top: 5px;
+    /* padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
     border: none;
     border-radius: 2px;
     background: goldenrod;
     width: 150px;
+    height: 40px;
     color: #016f32;
     margin-bottom: 2px;
-    margin-top: 2px;
+    margin-top: 2px; */
+    text-transform: uppercase;
+  background: transparent;
+  color: gainsboro;
+  padding: 0.475rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 150px;
+  height: 40px;
 }
+button:hover {
+    color: whitesmoke;
+    background: black;
+  }

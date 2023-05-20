@@ -65,7 +65,7 @@ function newCard() {
     }
 }
 function dead() {
-    if (isAlive === false) {
+    if (sum > 21 && isAlive === false) {
         let nm= "Saaralla, potte" + " " + "outaayi" + " " + player.name + "eeee"
         window.alert(nm)
     }
